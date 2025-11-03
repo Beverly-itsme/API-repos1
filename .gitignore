@@ -9,11 +9,11 @@ env/
 ENV/
 
 # Database
-*.db
+# *.db  # Commented out to include media.db in repo
 *.sqlite3
 
-# Media files (you might want to include these depending on your deployment strategy)
-media/
+# Media files (included for Render deployment)
+# media/
 
 # IDE files
 .vscode/
